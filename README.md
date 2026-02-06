@@ -4,9 +4,9 @@
 
 <p align="left"> <a href="https://twitter.com/NihilDigit" target="blank"><img src="https://img.shields.io/twitter/follow/NihilDigit?logo=twitter&style=for-the-badge" alt="NihilDigit" /></a> </p>
 
-- 🔭 I'm currently working on **On-device AI for accessibility, Linux ricing and Vibe coding.**
+- 🔭 I'm currently working on **On-device AI for accessibility, Computer Vision, Linux ricing and Vibe coding.**
 
-- 🌱 I'm currently learning **Jetpack Compose, PyTorch, MNN, LiteRT and other cool stuff.**
+- 🌱 I'm currently learning **Jetpack Compose, PyTorch, MNN, llama.cpp, LiteRT and other cool stuff.**
 
 - 💬 Ask me about **Anything**
 
