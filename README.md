@@ -6,18 +6,16 @@
 
 </div>
 
-## `> cat /proc/cpuinfo`
+## `> fastfetch`
 
 ```
-processor       : 0
-vendor_id       : NihilDigit
-model name      : AI Undergrad @ NCUST
-stepping        : 3
-cpu MHz         : variable
-cache size      : EdgeAI CV MultiMedia VibeCoding
-address sizes   : Tangshan, Hebei, CN
-bogomips        : ∞
-flags           : python rust kotlin c linux archlinux
+      /\          nihildigit@archlinux
+     /  \         ---------------------
+    /\   \        OS: Arch Linux x86_64
+   /      \       Host: NCST
+  /   ,,   \      Role: AI Undergrad
+ /   |  |   \     Focus: EdgeAI CV MultiMedia VibeCoding
+/_-''    ''-_\    Location: Tangshan, Hebei, CN
 ```
 
 ## `> cat /etc/locale.gen`
