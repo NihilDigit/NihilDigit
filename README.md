@@ -46,6 +46,17 @@ zh_CN.UTF-8 UTF-8
 #  zh_TW.UTF-8 UTF-8
 ```
 
+## `> sudo iptables -L nihildigit`
+
+```
+Chain INPUT (policy DROP)
+ACCEPT     tcp  -- elegant-solutions    anywhere
+ACCEPT     tcp  -- first-principles     anywhere
+DROP       tcp  -- "just-add-a-patch"   anywhere
+DROP       tcp  -- legacy-tech-worship  anywhere
+ACCEPT     tcp  -- 3am-rabbit-holes     anywhere    /* regrettable */
+```
+
 ## `> cat /etc/fstab`
 
 ```bash
