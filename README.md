@@ -46,6 +46,15 @@ zh_CN.UTF-8 UTF-8
 #  zh_TW.UTF-8 UTF-8
 ```
 
+## `> cat /etc/fstab`
+
+```bash
+# <device>       <mount>          <type>   <options>
+claude           /                ai       defaults,rw         0 1
+codex            /code            ai       defaults,rw         0 2
+gemini           /chat            ai       defaults,ro         0 0
+```
+
 ## `> pacman -Ss nihildigit`
 
 <pre>
