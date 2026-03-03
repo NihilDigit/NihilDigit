@@ -21,12 +21,10 @@
 ## `> ls projects/`
 
 <div align="center">
-  <a href="https://github.com/NihilDigit/renpak">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NihilDigit&repo=renpak&hide_border=true&bg_color=0d1117&title_color=BD93F9&icon_color=FF79C6&text_color=c9d1d9" />
-  </a>
-  <a href="https://github.com/NihilDigit/waybar-ai-usage">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NihilDigit&repo=waybar-ai-usage&hide_border=true&bg_color=0d1117&title_color=BD93F9&icon_color=FF79C6&text_color=c9d1d9" />
-  </a>
+
+[![renpak](https://img.shields.io/badge/renpak-Rust-BD93F9?style=for-the-badge&logo=rust&logoColor=white&labelColor=0d1117)](https://github.com/NihilDigit/renpak)&nbsp;
+[![waybar-ai-usage](https://img.shields.io/badge/waybar--ai--usage-Python-FF79C6?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117)](https://github.com/NihilDigit/waybar-ai-usage)
+
 </div>
 
 <br/>
@@ -34,20 +32,16 @@
 ## `> github --stats`
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=NihilDigit&show_icons=true&hide_border=true&bg_color=0d1117&title_color=BD93F9&icon_color=FF79C6&text_color=c9d1d9&ring_color=BD93F9" alt="stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NihilDigit&layout=compact&hide_border=true&bg_color=0d1117&title_color=BD93F9&text_color=c9d1d9" alt="top langs" />
+  <img src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output-cards/profile-summary-card-output/dracula/0-profile-details.svg" alt="details" />
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output-cards/profile-summary-card-output/dracula/3-stats.svg" alt="stats" />
+  <img src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output-cards/profile-summary-card-output/dracula/1-repos-per-language.svg" alt="languages" />
 </div>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=NihilDigit&hide_border=true&background=0D1117&ring=BD93F9&fire=FF79C6&currStreakLabel=BD93F9&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6e7681" alt="streak" />
-</div>
-
-<br/>
-
-## `> git log --graph`
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NihilDigit&hide_border=true&bg_color=0d1117&color=BD93F9&line=FF79C6&point=FFFFFF&area=true&area_color=BD93F9" alt="activity graph" />
 </div>
 
 <br/>
