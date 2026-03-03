@@ -48,16 +48,8 @@ nihildigit/<a href="https://github.com/NihilDigit/waybar-ai-usage"><b>waybar-ai-
 ## `> github --stats`
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/main/profile-summary-card-output/nord_dark/0-profile-details.svg" alt="details" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/main/profile-summary-card-output/nord_dark/3-stats.svg" alt="stats" />
-  <img src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/main/profile-summary-card-output/nord_dark/1-repos-per-language.svg" alt="languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=NihilDigit&hide_border=true&background=2b3339&ring=a7c080&fire=e67e80&currStreakLabel=a7c080&sideLabels=d3c6aa&currStreakNum=d3c6aa&sideNums=d3c6aa&dates=859289" alt="streak" />
+  <img height="150" src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/main/profile-summary-card-output/nord_dark/3-stats.svg" alt="stats" />
+  <img height="150" src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/main/profile-summary-card-output/nord_dark/1-repos-per-language.svg" alt="languages" />
 </div>
 
 <br/>
