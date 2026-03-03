@@ -17,16 +17,33 @@
 
 <br/>
 
-## `> ls projects/`
+## `> cat /etc/locale.gen`
 
-<div align="center">
+```bash
+#  aa_DJ.UTF-8 UTF-8
+#  ...
+#  de_DE.UTF-8 UTF-8
+#  el_GR.UTF-8 UTF-8
+en_US.UTF-8 UTF-8
+#  es_ES.UTF-8 UTF-8
+#  fr_FR.UTF-8 UTF-8
+#  ...
+#  it_IT.UTF-8 UTF-8
+ja_JP.UTF-8 UTF-8
+#  ko_KR.UTF-8 UTF-8
+#  ...
+zh_CN.UTF-8 UTF-8
+#  zh_TW.UTF-8 UTF-8
+```
 
-[![renpak](https://img.shields.io/badge/renpak-Rust-a7c080?style=for-the-badge&logo=rust&logoColor=d3c6aa&labelColor=2b3339)](https://github.com/NihilDigit/renpak)&nbsp;
-[![waybar-ai-usage](https://img.shields.io/badge/waybar--ai--usage-Python-83c092?style=for-the-badge&logo=python&logoColor=d3c6aa&labelColor=2b3339)](https://github.com/NihilDigit/waybar-ai-usage)
+## `> pacman -Ss nihildigit`
 
-</div>
-
-<br/>
+<pre>
+nihildigit/<a href="https://github.com/NihilDigit/renpak"><b>renpak</b></a> 0.1.0
+    Rust package management tool
+nihildigit/<a href="https://github.com/NihilDigit/waybar-ai-usage"><b>waybar-ai-usage</b></a> 1.0.0 [installed: 20★]
+    Monitor Claude Code and OpenAI Codex CLI usage in Waybar
+</pre>
 
 ## `> github --stats`
 
