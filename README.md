@@ -7,10 +7,10 @@
 <br/>
 
 <a href="https://twitter.com/NihilDigit">
-  <img src="https://img.shields.io/badge/X-d3c6aa?style=for-the-badge&logo=x&logoColor=2b3339&labelColor=2b3339" alt="X" />
+  <img src="https://img.shields.io/badge/X-2b3339?style=for-the-badge&logo=x&logoColor=d3c6aa" alt="X" />
 </a>&nbsp;
 <a href="https://t.me/NihilDigit">
-  <img src="https://img.shields.io/badge/Telegram-d3c6aa?style=for-the-badge&logo=telegram&logoColor=2b3339&labelColor=2b3339" alt="Telegram" />
+  <img src="https://img.shields.io/badge/Telegram-2b3339?style=for-the-badge&logo=telegram&logoColor=d3c6aa" alt="Telegram" />
 </a>
 
 </div>
@@ -31,12 +31,12 @@
 ## `> github --stats`
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output-cards/profile-summary-card-output/nord_dark/0-profile-details.svg" alt="details" />
+  <img src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/main/profile-summary-card-output/nord_dark/0-profile-details.svg" alt="details" />
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output-cards/profile-summary-card-output/nord_dark/3-stats.svg" alt="stats" />
-  <img src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output-cards/profile-summary-card-output/nord_dark/1-repos-per-language.svg" alt="languages" />
+  <img src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/main/profile-summary-card-output/nord_dark/3-stats.svg" alt="stats" />
+  <img src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/main/profile-summary-card-output/nord_dark/1-repos-per-language.svg" alt="languages" />
 </div>
 
 <div align="center">
