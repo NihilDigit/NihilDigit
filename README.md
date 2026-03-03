@@ -53,7 +53,7 @@ Chain INPUT (policy DROP)
 ACCEPT     tcp  -- elegant-solutions    anywhere
 ACCEPT     tcp  -- first-principles     anywhere
 DROP       tcp  -- "just-add-a-patch"   anywhere
-DROP       tcp  -- legacy-tech-worship  anywhere
+DROP       tcp  -- legacy-tech          anywhere
 ACCEPT     tcp  -- 3am-rabbit-holes     anywhere    /* regrettable */
 ```
 
