@@ -1,23 +1,65 @@
-# Hi 👋, I'm NihilDigit
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:BD93F9,100:FF79C6&height=120&section=header"/>
 
-### Student
+<div align="center">
 
-<p align="left"> <a href="https://twitter.com/NihilDigit" target="blank"><img src="https://img.shields.io/twitter/follow/NihilDigit?logo=twitter&style=for-the-badge" alt="NihilDigit" /></a> </p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=BD93F9&center=true&vCenter=true&repeat=true&random=false&width=620&height=60&lines=EdgeAI;CV;MultiMedia;VibeCoding)](https://git.io/typing-svg)
 
-- 🔭 I'm currently working on **On-device AI for accessibility, Computer Vision, Linux ricing and Vibe coding.**
+<br/>
 
-- 🌱 I'm currently learning **Jetpack Compose, PyTorch, MNN, llama.cpp, LiteRT and other cool stuff.**
+<a href="https://github.com/NihilDigit">
+  <img src="https://img.shields.io/github/followers/NihilDigit?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=BD93F9" alt="followers" />
+</a>&nbsp;
+<a href="https://twitter.com/NihilDigit">
+  <img src="https://img.shields.io/twitter/follow/NihilDigit?style=for-the-badge&logo=x&logoColor=white&labelColor=0d1117&color=BD93F9" alt="twitter" />
+</a>&nbsp;
+<img src="https://komarev.com/ghpvc/?username=NihilDigit&style=for-the-badge&color=BD93F9&label=PROFILE+VIEWS" alt="profile views" />
 
-- 💬 Ask me about **Anything**
+</div>
 
-- 📫 How to reach me **nihildigit@outlook.com**
+<br/>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://github.com/NihilDigit" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="NihilDigit" height="30" width="40" /></a>
-<a href="https://twitter.com/NihilDigit" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="NihilDigit" height="30" width="40" /></a>
-</p>
+## `> ls projects/`
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/android" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=androidstudio" alt="android" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/c" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=c" alt="c" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/dart" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=dart" alt="dart" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/fastapi" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=fastapi" alt="fastapi" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/kotlin" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=kotlin" alt="kotlin" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/langchain" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="langchain" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/linux" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/postgresql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=postgres" alt="postgresql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/pytorch" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=pytorch" alt="pytorch" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/tensorflow" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=tensorflow" alt="tensorflow" width="40" height="40"/> </a></p>
+<div align="center">
+  <a href="https://github.com/NihilDigit/renpak">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NihilDigit&repo=renpak&hide_border=true&bg_color=0d1117&title_color=BD93F9&icon_color=FF79C6&text_color=c9d1d9" />
+  </a>
+  <a href="https://github.com/NihilDigit/waybar-ai-usage">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=NihilDigit&repo=waybar-ai-usage&hide_border=true&bg_color=0d1117&title_color=BD93F9&icon_color=FF79C6&text_color=c9d1d9" />
+  </a>
+</div>
 
+<br/>
+
+## `> github --stats`
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=NihilDigit&show_icons=true&hide_border=true&bg_color=0d1117&title_color=BD93F9&icon_color=FF79C6&text_color=c9d1d9&ring_color=BD93F9" alt="stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NihilDigit&layout=compact&hide_border=true&bg_color=0d1117&title_color=BD93F9&text_color=c9d1d9" alt="top langs" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=NihilDigit&hide_border=true&background=0D1117&ring=BD93F9&fire=FF79C6&currStreakLabel=BD93F9&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6e7681" alt="streak" />
+</div>
+
+<br/>
+
+## `> git log --graph`
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NihilDigit&hide_border=true&bg_color=0d1117&color=BD93F9&line=FF79C6&point=FFFFFF&area=true&area_color=BD93F9" alt="activity graph" />
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/github-snake.svg" />
+    <img alt="snake eating contributions" src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/github-snake-dark.svg" />
+  </picture>
+</div>
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:BD93F9,100:FF79C6&height=120&section=footer"/>
