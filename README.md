@@ -6,13 +6,12 @@
 
 <br/>
 
-<a href="https://github.com/NihilDigit">
-  <img src="https://img.shields.io/github/followers/NihilDigit?style=for-the-badge&logo=github&logoColor=d3c6aa&labelColor=2b3339&color=a7c080" alt="followers" />
-</a>&nbsp;
 <a href="https://twitter.com/NihilDigit">
-  <img src="https://img.shields.io/twitter/follow/NihilDigit?style=for-the-badge&logo=x&logoColor=d3c6aa&labelColor=2b3339&color=a7c080" alt="twitter" />
+  <img src="https://img.shields.io/badge/X-d3c6aa?style=for-the-badge&logo=x&logoColor=2b3339&labelColor=2b3339" alt="X" />
 </a>&nbsp;
-<img src="https://komarev.com/ghpvc/?username=NihilDigit&style=for-the-badge&color=a7c080&label=PROFILE+VIEWS" alt="profile views" />
+<a href="https://t.me/NihilDigit">
+  <img src="https://img.shields.io/badge/Telegram-d3c6aa?style=for-the-badge&logo=telegram&logoColor=2b3339&labelColor=2b3339" alt="Telegram" />
+</a>
 
 </div>
 
