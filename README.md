@@ -4,6 +4,15 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=A7C080&center=true&vCenter=true&repeat=true&random=false&width=620&height=60&lines=EdgeAI;CV;MultiMedia;VibeCoding)](https://git.io/typing-svg)
 
+<br/>
+
+<a href="https://x.com/NihilDigit">
+  <img src="https://img.shields.io/badge/X-2b3339?style=for-the-badge&logo=x&logoColor=d3c6aa" alt="X" />
+</a>&nbsp;
+<a href="https://t.me/NihilDigit">
+  <img src="https://img.shields.io/badge/Telegram-2b3339?style=for-the-badge&logo=telegram&logoColor=d3c6aa" alt="Telegram" />
+</a>
+
 </div>
 
 ## `> fastfetch`
@@ -36,17 +45,6 @@ ja_JP.UTF-8 UTF-8
 zh_CN.UTF-8 UTF-8
 #  zh_TW.UTF-8 UTF-8
 ```
-
-<div align="center">
-
-<a href="https://x.com/NihilDigit">
-  <img src="https://img.shields.io/badge/X-2b3339?style=for-the-badge&logo=x&logoColor=d3c6aa" alt="X" />
-</a>&nbsp;
-<a href="https://t.me/NihilDigit">
-  <img src="https://img.shields.io/badge/Telegram-2b3339?style=for-the-badge&logo=telegram&logoColor=d3c6aa" alt="Telegram" />
-</a>
-
-</div>
 
 ## `> pacman -Ss nihildigit`
 
