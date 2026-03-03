@@ -39,17 +39,16 @@ zh_CN.UTF-8 UTF-8
 #  zh_TW.UTF-8 UTF-8
 ```
 
-## `> ip addr`
+<div align="center">
 
-<pre>
-1: lo: &lt;LOOPBACK,UP,LOWER_UP&gt; mtu 65536 state UNKNOWN
-    link/loopback 00:00:00:00:00:00
-    inet 127.0.0.1/8 scope host
-2: x0: &lt;BROADCAST,UP,LOWER_UP&gt; mtu 1500 state UP
-    link/ether <a href="https://x.com/NihilDigit">@NihilDigit</a>
-3: tg0: &lt;BROADCAST,UP,LOWER_UP&gt; mtu 1500 state UP
-    link/ether <a href="https://t.me/NihilDigit">@NihilDigit</a>
-</pre>
+<a href="https://x.com/NihilDigit">
+  <img src="https://img.shields.io/badge/X-2b3339?style=for-the-badge&logo=x&logoColor=d3c6aa" alt="X" />
+</a>&nbsp;
+<a href="https://t.me/NihilDigit">
+  <img src="https://img.shields.io/badge/Telegram-2b3339?style=for-the-badge&logo=telegram&logoColor=d3c6aa" alt="Telegram" />
+</a>
+
+</div>
 
 ## `> pacman -Ss nihildigit`
 
