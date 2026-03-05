@@ -68,12 +68,16 @@ gemini           /chat            ai       defaults,ro         0 0
 
 ## `> pacman -Ss nihildigit`
 
+<!-- pacman-start -->
 <pre>
-nihildigit/<a href="https://github.com/NihilDigit/renpak"><b>renpak</b></a> 0.1.0
-    Rust package management tool
-nihildigit/<a href="https://github.com/NihilDigit/waybar-ai-usage"><b>waybar-ai-usage</b></a> 1.0.0 [installed: 20★]
-    Monitor Claude Code and OpenAI Codex CLI usage in Waybar
+nihildigit/<a href="https://github.com/NihilDigit/waybar-ai-usage"><b>waybar-ai-usage</b></a> 0.6.0 [installed: 20★]
+    Monitor Claude Code and OpenAI Codex CLI usage directly in your Waybar status bar.
+nihildigit/<a href="https://github.com/NihilDigit/renpak"><b>renpak</b></a> 0.3.2 [installed: 2★]
+    AVIF compression toolchain for Ren'Py games with transparent runtime decoding
+nihildigit/<a href="https://github.com/NihilDigit/omarchy-glass"><b>omarchy-glass</b></a>
+    Frosted glass visual enhancements for Omarchy Linux
 </pre>
+<!-- pacman-end -->
 
 ## `> github --stats`
 
