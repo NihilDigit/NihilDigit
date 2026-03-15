@@ -76,6 +76,8 @@ nihildigit/<a href="https://github.com/NihilDigit/renpak"><b>renpak</b></a> 0.3.
     AVIF compression toolchain for Ren'Py games with transparent runtime decoding
 nihildigit/<a href="https://github.com/NihilDigit/omarchy-glass"><b>omarchy-glass</b></a> [installed: 2★]
     Frosted glass visual enhancements for Omarchy Linux
+nihildigit/<a href="https://github.com/NihilDigit/guided_learning"><b>guided_learning</b></a>
+    No description
 </pre>
 <!-- pacman-end -->
 
