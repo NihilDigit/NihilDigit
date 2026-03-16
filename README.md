@@ -77,7 +77,7 @@ nihildigit/<a href="https://github.com/NihilDigit/renpak"><b>renpak</b></a> 0.3.
 nihildigit/<a href="https://github.com/NihilDigit/omarchy-glass"><b>omarchy-glass</b></a> [installed: 2★]
     Frosted glass visual enhancements for Omarchy Linux
 nihildigit/<a href="https://github.com/NihilDigit/guided_learning"><b>guided_learning</b></a>
-    No description
+    A Claude Code skill for interactive, guided study of textbooks, papers, and technical books.
 </pre>
 <!-- pacman-end -->
 
