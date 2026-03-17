@@ -70,7 +70,7 @@ gemini           /chat            ai       defaults,ro         0 0
 
 <!-- pacman-start -->
 <pre>
-nihildigit/<a href="https://github.com/NihilDigit/waybar-ai-usage"><b>waybar-ai-usage</b></a> 0.6.0 [installed: 24★]
+nihildigit/<a href="https://github.com/NihilDigit/waybar-ai-usage"><b>waybar-ai-usage</b></a> 0.6.0 [installed: 25★]
     Monitor Claude Code and OpenAI Codex CLI usage directly in your Waybar status bar.
 nihildigit/<a href="https://github.com/NihilDigit/renpak"><b>renpak</b></a> 0.3.2 [installed: 3★]
     AVIF compression toolchain for Ren'Py games with transparent runtime decoding
@@ -78,6 +78,8 @@ nihildigit/<a href="https://github.com/NihilDigit/omarchy-glass"><b>omarchy-glas
     Frosted glass visual enhancements for Omarchy Linux
 nihildigit/<a href="https://github.com/NihilDigit/guided_learning"><b>guided_learning</b></a>
     A Claude Code skill for interactive, guided study of textbooks, papers, and technical books.
+nihildigit/<a href="https://github.com/NihilDigit/study-notes"><b>study-notes</b></a>
+    No description
 </pre>
 <!-- pacman-end -->
 
