@@ -80,7 +80,7 @@ nihildigit/<a href="https://github.com/NihilDigit/guided_learning"><b>guided_lea
     A Claude Code skill for interactive, guided study of textbooks, papers, and technical books.
 nihildigit/<a href="https://github.com/NihilDigit/study-notes"><b>study-notes</b></a>
     No description
-nihildigit/<a href="https://github.com/NihilDigit/mpv-android-anvil"><b>mpv-android-anvil</b></a> 1.0.0
+nihildigit/<a href="https://github.com/NihilDigit/mpv-android-anvil"><b>mpv-android-anvil</b></a> 1.3.0
     Companion app for "ANVIL: Accelerator-Native Video Interpolation"
 </pre>
 <!-- pacman-end -->
