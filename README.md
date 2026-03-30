@@ -78,8 +78,6 @@ nihildigit/<a href="https://github.com/NihilDigit/omarchy-glass"><b>omarchy-glas
     Frosted glass visual enhancements for Omarchy Linux
 nihildigit/<a href="https://github.com/NihilDigit/guided_learning"><b>guided_learning</b></a>
     A Claude Code skill for interactive, guided study of textbooks, papers, and technical books.
-nihildigit/<a href="https://github.com/NihilDigit/study-notes"><b>study-notes</b></a>
-    No description
 nihildigit/<a href="https://github.com/NihilDigit/mpv-android-anvil"><b>mpv-android-anvil</b></a> 1.3.0
     Companion app for "ANVIL: Accelerator-Native Video Interpolation"
 </pre>
