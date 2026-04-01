@@ -74,12 +74,10 @@ nihildigit/<a href="https://github.com/NihilDigit/waybar-ai-usage"><b>waybar-ai-
     Monitor Claude Code and OpenAI Codex CLI usage directly in your Waybar status bar.
 nihildigit/<a href="https://github.com/NihilDigit/renpak"><b>renpak</b></a> 0.3.2 [installed: 4★]
     AVIF compression toolchain for Ren'Py games with transparent runtime decoding
-nihildigit/<a href="https://github.com/NihilDigit/omarchy-glass"><b>omarchy-glass</b></a> [installed: 2★]
-    Frosted glass visual enhancements for Omarchy Linux
-nihildigit/<a href="https://github.com/NihilDigit/guided_learning"><b>guided_learning</b></a>
-    A Claude Code skill for interactive, guided study of textbooks, papers, and technical books.
 nihildigit/<a href="https://github.com/NihilDigit/mpv-android-anvil"><b>mpv-android-anvil</b></a> 1.3.0
     Companion app for "ANVIL: Accelerator-Native Video Interpolation"
+nihildigit/<a href="https://github.com/NihilDigit/anvil"><b>anvil</b></a>
+    ANVIL: Accelerator-Native Video Interpolation
 </pre>
 <!-- pacman-end -->
 
