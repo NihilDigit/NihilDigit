@@ -9,9 +9,12 @@ permissions:
   contents: write
 
 jobs:
-  snake:
+  build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
+      # --- Snake ---
       - uses: Platane/snk@v3
         with:
           github_user_name: NihilDigit
@@ -26,24 +29,28 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  pacman:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: python scripts/update-pacman.py
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "sync: update pacman pinned repos"
-
-  cards:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+      # --- Profile Summary Cards ---
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: NihilDigit
-          BRANCH_NAME: output-cards
+          AUTO_PUSH: false
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output-cards
+          build_dir: profile-summary-card-output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # --- README sync (pacman + arxiv) ---
+      - run: python scripts/update-pacman.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: python scripts/update-arxiv.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "sync: update profile data"

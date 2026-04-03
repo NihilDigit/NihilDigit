@@ -81,6 +81,14 @@ nihildigit/<a href="https://github.com/NihilDigit/anvil"><b>anvil</b></a>
 </pre>
 <!-- pacman-end -->
 
+## `> arxiv --author liu_s_14`
+
+<!-- arxiv-start -->
+<pre>
+    <b>[2026.03]</b> <a href="https://arxiv.org/abs/2603.26835">ANVIL: Accelerator-Native Video Interpolation via Codec Motion Vector Priors</a>
+</pre>
+<!-- arxiv-end -->
+
 ## `> github --stats`
 
 <div align="center">
