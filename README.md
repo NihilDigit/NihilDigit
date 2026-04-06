@@ -78,6 +78,8 @@ nihildigit/<a href="https://github.com/NihilDigit/mpv-android-anvil"><b>mpv-andr
     Companion app for "ANVIL: Accelerator-Native Video Interpolation"
 nihildigit/<a href="https://github.com/NihilDigit/anvil"><b>anvil</b></a>
     ANVIL: Accelerator-Native Video Interpolation
+nihildigit/<a href="https://github.com/NihilDigit/gloss"><b>gloss</b></a>
+    Read with Claude Code
 </pre>
 <!-- pacman-end -->
 
