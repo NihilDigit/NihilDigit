@@ -78,8 +78,10 @@ nihildigit/<a href="https://github.com/NihilDigit/mpv-android-anvil"><b>mpv-andr
     Companion app for "ANVIL: Accelerator-Native Video Interpolation"
 nihildigit/<a href="https://github.com/NihilDigit/anvil"><b>anvil</b></a> [installed: 1★]
     ANVIL: Accelerator-Native Video Interpolation
-nihildigit/<a href="https://github.com/NihilDigit/gloss"><b>gloss</b></a> [installed: 1★]
-    Agentic reading
+nihildigit/<a href="https://github.com/NihilDigit/pikpak-kotlin"><b>pikpak-kotlin</b></a> 0.3.2
+    Atomic Kotlin Multiplatform SDK for PikPak cloud storage. Session persistence, captcha re-auth, rate limiting, GCID hashing, and OSS multipart signing baked in.
+nihildigit/<a href="https://github.com/NihilDigit/animeko-pikpak"><b>animeko-pikpak</b></a>
+    Animeko with PikPak as backend.
 </pre>
 <!-- pacman-end -->
 
