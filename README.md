@@ -74,14 +74,14 @@ nihildigit/<a href="https://github.com/NihilDigit/waybar-ai-usage"><b>waybar-ai-
     Monitor Claude Code and OpenAI Codex CLI usage directly in your Waybar status bar.
 nihildigit/<a href="https://github.com/NihilDigit/renpak"><b>renpak</b></a> 0.3.2 [installed: 4★]
     AVIF compression toolchain for Ren'Py games with transparent runtime decoding
-nihildigit/<a href="https://github.com/NihilDigit/mpv-android-anvil"><b>mpv-android-anvil</b></a> 1.3.0 [installed: 2★]
-    Companion app for "ANVIL: Accelerator-Native Video Interpolation"
 nihildigit/<a href="https://github.com/NihilDigit/anvil"><b>anvil</b></a> [installed: 1★]
     ANVIL: Accelerator-Native Video Interpolation
 nihildigit/<a href="https://github.com/NihilDigit/pikpak-kotlin"><b>pikpak-kotlin</b></a> 0.4.3
     Atomic Kotlin Multiplatform SDK for PikPak cloud storage. Session persistence, captcha re-auth, rate limiting, GCID hashing, and OSS multipart signing baked in.
 nihildigit/<a href="https://github.com/NihilDigit/animeko-pikpak"><b>animeko-pikpak</b></a>
     Animeko with PikPak as backend.
+nihildigit/<a href="https://github.com/NihilDigit/report-authoring"><b>report-authoring</b></a>
+    We all hate docx, but life goes on. An agent skill for lab reports and coursework.
 </pre>
 <!-- pacman-end -->
 
