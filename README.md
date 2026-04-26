@@ -70,7 +70,7 @@ gemini           /chat            ai       defaults,ro         0 0
 
 <!-- pacman-start -->
 <pre>
-nihildigit/<a href="https://github.com/NihilDigit/waybar-ai-usage"><b>waybar-ai-usage</b></a> 0.6.0 [installed: 39★]
+nihildigit/<a href="https://github.com/NihilDigit/waybar-ai-usage"><b>waybar-ai-usage</b></a> 0.6.0 [installed: 40★]
     Monitor Claude Code and OpenAI Codex CLI usage directly in your Waybar status bar.
 nihildigit/<a href="https://github.com/NihilDigit/anvil"><b>anvil</b></a> [installed: 1★]
     ANVIL: Accelerator-Native Video Interpolation
