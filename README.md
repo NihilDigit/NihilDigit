@@ -80,7 +80,7 @@ nihildigit/<a href="https://github.com/NihilDigit/renpak"><b>renpak</b></a> 0.3.
     AVIF compression toolchain for Ren'Py games with transparent runtime decoding
 nihildigit/<a href="https://github.com/NihilDigit/shulker"><b>shulker</b></a> 1.0.1
     Cross-platform TUI for a friend-group Minecraft Paper/Purpur server.
-nihildigit/<a href="https://github.com/NihilDigit/tokmato"><b>tokmato</b></a> 1.6.1
+nihildigit/<a href="https://github.com/NihilDigit/tokmato"><b>tokmato</b></a> 2.2.2
     Personal token-economy pomodoro app — earn focus / health tokens, spend them on a time pool that funds entertainment, food, and wishlist redemption.
 </pre>
 <!-- pacman-end -->
