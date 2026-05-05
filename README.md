@@ -70,17 +70,17 @@ gemini           /chat            ai       defaults,ro         0 0
 
 <!-- pacman-start -->
 <pre>
-nihildigit/<a href="https://github.com/NihilDigit/waybar-ai-usage"><b>waybar-ai-usage</b></a> 0.7.0 [installed: 40★]
+nihildigit/<a href="https://github.com/NihilDigit/waybar-ai-usage"><b>waybar-ai-usage</b></a> 0.7.0 [installed: 41★]
     Monitor Claude Code and OpenAI Codex CLI usage directly in your Waybar status bar.
 nihildigit/<a href="https://github.com/NihilDigit/anvil"><b>anvil</b></a> [installed: 1★]
     ANVIL: Accelerator-Native Video Interpolation
 nihildigit/<a href="https://github.com/NihilDigit/RAFNet"><b>RAFNet</b></a> 1
     Official RAFNet code — multimodal fusion for dense classroom student behavior recognition.
-nihildigit/<a href="https://github.com/NihilDigit/renpak"><b>renpak</b></a> 0.3.2 [installed: 4★]
+nihildigit/<a href="https://github.com/NihilDigit/renpak"><b>renpak</b></a> 0.3.2 [installed: 5★]
     AVIF compression toolchain for Ren'Py games with transparent runtime decoding
 nihildigit/<a href="https://github.com/NihilDigit/shulker"><b>shulker</b></a> 1.0.1
     Cross-platform TUI for a friend-group Minecraft Paper/Purpur server.
-nihildigit/<a href="https://github.com/NihilDigit/tokmato"><b>tokmato</b></a> 2.2.2
+nihildigit/<a href="https://github.com/NihilDigit/tokmato"><b>tokmato</b></a> 2.6.1
     Personal token-economy pomodoro app — earn focus / health tokens, spend them on a time pool that funds entertainment, food, and wishlist redemption.
 </pre>
 <!-- pacman-end -->
