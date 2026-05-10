@@ -72,7 +72,7 @@ gemini           /chat            ai       defaults,ro         0 0
 <pre>
 nihildigit/<a href="https://github.com/NihilDigit/waybar-ai-usage"><b>waybar-ai-usage</b></a> 0.7.0 [installed: 43★]
     Monitor Claude Code and OpenAI Codex CLI usage directly in your Waybar status bar.
-nihildigit/<a href="https://github.com/open-ani/animeko"><b>animeko</b></a> 5.4.3 [installed: 17615★]
+nihildigit/<a href="https://github.com/open-ani/animeko"><b>animeko</b></a> 5.4.3 [installed: 17643★]
     集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform
 nihildigit/<a href="https://github.com/NihilDigit/anvil"><b>anvil</b></a> [installed: 1★]
     ANVIL: Accelerator-Native Video Interpolation
