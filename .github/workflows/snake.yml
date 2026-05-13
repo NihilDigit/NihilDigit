@@ -44,8 +44,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # --- README sync (pacman + arxiv) ---
-      - run: python scripts/update-pacman.py
+      # --- README sync ---
+      - run: python scripts/update-projects.py
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

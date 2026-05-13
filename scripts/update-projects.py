@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch pinned repos via GitHub GraphQL API and update the pacman block in README."""
+"""Fetch pinned repos via GitHub GraphQL API and update the projects block in README."""
 
 import json
 import re
@@ -16,10 +16,6 @@ QUERY = """
           name
           url
           description
-          stargazerCount
-          latestRelease {
-            tagName
-          }
         }
       }
     }
@@ -45,34 +41,19 @@ def format_repo(repo: dict) -> str:
     name = repo["name"]
     url = repo["url"]
     description = repo["description"] or "No description"
-    stars = repo["stargazerCount"]
-    release = repo.get("latestRelease")
-
-    version = ""
-    if release and release.get("tagName"):
-        version = " " + release["tagName"].lstrip("v")
-
-    star_badge = ""
-    if stars > 0:
-        star_badge = f" [installed: {stars}\u2605]"
-
-    line1 = f'nihildigit/<a href="{url}"><b>{name}</b></a>{version}{star_badge}'
-    line2 = f"    {description}"
-    return f"{line1}\n{line2}"
+    return f"- [{name}]({url}) — {description}"
 
 
 def main():
     repos = fetch_pinned_repos()
-    entries = "\n".join(format_repo(r) for r in repos)
-    block = f"<!-- pacman-start -->\n<pre>\n{entries}\n</pre>\n<!-- pacman-end -->"
+    entries = "\n".join(format_repo(repo) for repo in repos)
+    block = f"<!-- projects-start -->\n{entries}\n<!-- projects-end -->"
 
     text = README.read_text()
-    pattern = re.compile(
-        r"<!-- pacman-start -->.*?<!-- pacman-end -->", re.DOTALL
-    )
+    pattern = re.compile(r"<!-- projects-start -->.*?<!-- projects-end -->", re.DOTALL)
 
     if not pattern.search(text):
-        print("ERROR: pacman markers not found in README.md", file=sys.stderr)
+        print("ERROR: project markers not found in README.md", file=sys.stderr)
         sys.exit(1)
 
     new_text = pattern.sub(block, text)
