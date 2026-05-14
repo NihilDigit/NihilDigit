@@ -11,12 +11,12 @@ I like systems that are practical, inspectable, and close to real hardware or re
 ## Projects
 
 <!-- projects-start -->
-- [waybar-ai-usage](https://github.com/NihilDigit/waybar-ai-usage) — Monitor Claude Code and OpenAI Codex CLI usage from Waybar.
-- [animeko](https://github.com/open-ani/animeko) — A Kotlin/Compose Multiplatform anime tracking and watching app.
-- [anvil](https://github.com/NihilDigit/anvil) — Accelerator-native video interpolation with codec motion vector priors.
-- [RAFNet](https://github.com/NihilDigit/RAFNet) — Multimodal fusion for dense classroom student behavior recognition.
-- [renpak](https://github.com/NihilDigit/renpak) — AVIF compression toolchain for Ren'Py games with transparent runtime decoding.
-- [tokmato](https://github.com/NihilDigit/tokmato) — A token-economy pomodoro app for focus, health, and entertainment budgets.
+- [waybar-ai-usage](https://github.com/NihilDigit/waybar-ai-usage) — Monitor Claude Code and OpenAI Codex CLI usage directly in your Waybar status bar.
+- [animeko](https://github.com/open-ani/animeko) — 集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform
+- [anvil](https://github.com/NihilDigit/anvil) — ANVIL: Accelerator-Native Video Interpolation
+- [RAFNet](https://github.com/NihilDigit/RAFNet) — Official RAFNet code — multimodal fusion for dense classroom student behavior recognition.
+- [renpak](https://github.com/NihilDigit/renpak) — AVIF compression toolchain for Ren'Py games with transparent runtime decoding
+- [tokmato](https://github.com/NihilDigit/tokmato) — Personal token-economy pomodoro app — earn focus / health tokens, spend them on a time pool that funds entertainment, food, and wishlist redemption.
 <!-- projects-end -->
 
 ## Publications
