@@ -6,10 +6,9 @@ I like systems that are practical, inspectable, and close to real hardware or re
 
 ## Links
 
-[![Website](https://img.shields.io/badge/-nihildigit.dev-111?style=flat-square&logo=googlechrome&logoColor=white)](https://nihildigit.dev)
-[![X](https://img.shields.io/badge/-@NihilDigit-111?style=flat-square&logo=x&logoColor=white)](https://x.com/NihilDigit)
-[![Telegram](https://img.shields.io/badge/-@NihilDigit-111?style=flat-square&logo=telegram&logoColor=white)](https://t.me/NihilDigit)
-[![Codewars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FNihilDigit&query=%24.ranks.overall.name&label=&color=111&style=flat-square&logo=codewars&logoColor=white)](https://www.codewars.com/users/NihilDigit)
+[![X](https://img.shields.io/badge/-NihilDigit-111?style=flat-square&logo=x)](https://x.com/NihilDigit)
+[![Telegram](https://img.shields.io/badge/-NihilDigit-111?style=flat-square&logo=telegram)](https://t.me/NihilDigit)
+[![Codewars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FNihilDigit&query=%24.ranks.overall.name&label=&color=111&style=flat-square&logo=codewars)](https://www.codewars.com/users/NihilDigit)
 
 ## Projects
 
