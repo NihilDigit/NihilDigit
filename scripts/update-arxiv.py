@@ -3,13 +3,17 @@
 
 import re
 import sys
+import time
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ARXIV_AUTHOR_ID = "liu_s_14"
 AUTHOR_PAGE = f"https://arxiv.org/a/{ARXIV_AUTHOR_ID}.html"
-ARXIV_API = "http://export.arxiv.org/api/query"
+ARXIV_API = "https://export.arxiv.org/api/query"
+REQUEST_TIMEOUT = 20
+MAX_RETRIES = 3
 
 ATOM = "{http://www.w3.org/2005/Atom}"
 ARXIV_NS = "{http://arxiv.org/schemas/atom}"
@@ -17,12 +21,29 @@ ARXIV_NS = "{http://arxiv.org/schemas/atom}"
 README = Path(__file__).resolve().parent.parent / "README.md"
 
 
+def fetch_url(url: str, *, headers: dict[str, str] | None = None) -> bytes:
+    """Fetch a URL with a few retries for transient arXiv/backend failures."""
+    req = urllib.request.Request(url, headers=headers or {})
+    last_error: Exception | None = None
+
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
+                return resp.read()
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
+            last_error = exc
+            if attempt == MAX_RETRIES:
+                break
+            time.sleep(2 ** (attempt - 1))
+
+    raise RuntimeError(f"failed to fetch {url} after {MAX_RETRIES} attempts: {last_error}") from last_error
+
+
 def fetch_arxiv_ids() -> list[str]:
     """Scrape arXiv IDs from the author page."""
-    req = urllib.request.Request(AUTHOR_PAGE, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req) as resp:
-        html = resp.read().decode()
-    return re.findall(r"/abs/(\d{4}\.\d{4,5})", html)
+    html = fetch_url(AUTHOR_PAGE, headers={"User-Agent": "Mozilla/5.0"}).decode()
+    ids = re.findall(r"/abs/(\d{4}\.\d{4,5})", html)
+    return list(dict.fromkeys(ids))
 
 
 def fetch_metadata(arxiv_ids: list[str]) -> list[dict]:
@@ -31,8 +52,7 @@ def fetch_metadata(arxiv_ids: list[str]) -> list[dict]:
         return []
     id_list = ",".join(arxiv_ids)
     url = f"{ARXIV_API}?id_list={id_list}&max_results={len(arxiv_ids)}"
-    with urllib.request.urlopen(url) as resp:
-        root = ET.fromstring(resp.read())
+    root = ET.fromstring(fetch_url(url))
 
     works = []
     for entry in root.findall(f"{ATOM}entry"):
@@ -95,12 +115,24 @@ def format_work(work: dict) -> str:
 
 
 def main():
-    arxiv_ids = fetch_arxiv_ids()
+    try:
+        arxiv_ids = fetch_arxiv_ids()
+    except RuntimeError as exc:
+        print(f"WARNING: {exc}", file=sys.stderr)
+        print("Keeping existing README publications block.")
+        return
+
     if not arxiv_ids:
         print("No papers found on arXiv author page.")
         return
 
-    works = fetch_metadata(arxiv_ids)
+    try:
+        works = fetch_metadata(arxiv_ids)
+    except RuntimeError as exc:
+        print(f"WARNING: {exc}", file=sys.stderr)
+        print("Keeping existing README publications block.")
+        return
+
     if not works:
         print("Failed to fetch metadata from arXiv API.")
         return
