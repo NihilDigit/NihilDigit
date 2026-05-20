@@ -8,7 +8,7 @@ I like systems that are practical, inspectable, and close to real hardware or re
 
 [![X](https://img.shields.io/badge/-NihilDigit-111?style=flat-square&logo=x)](https://x.com/NihilDigit)
 [![Telegram](https://img.shields.io/badge/-NihilDigit-111?style=flat-square&logo=telegram)](https://t.me/NihilDigit)
-[![Codewars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FNihilDigit&query=%24.ranks.overall.name&label=&color=111&style=flat-square&logo=codewars)](https://www.codewars.com/users/NihilDigit)
+[![Codewars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FNihilDigit&query=%24.ranks.overall.name&label=&color=111&style=flat-square&logo=codewars&logoColor=B1361E)](https://www.codewars.com/users/NihilDigit)
 
 ## Projects
 
