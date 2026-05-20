@@ -1,12 +1,15 @@
 # NihilDigit
 
-AI undergraduate working on edge AI, computer vision, multimedia systems, and small tools that make daily workflows less tedious.
+AI undergraduate working on edge AI, computer vision, multimedia systems, and small tools for everyday workflows.
 
-I like systems that are practical, inspectable, and close to real hardware or real user routines. This GitHub profile is a compact index; the more visual version lives at [nihildigit.dev](https://nihildigit.dev).
+I like systems that are practical, inspectable, and close to real hardware or real user routines. This profile is a compact index; more about my work is at [nihildigit.dev](https://nihildigit.dev).
 
 ## Links
 
-[Website](https://nihildigit.dev) · [X](https://x.com/NihilDigit) · [Telegram](https://t.me/NihilDigit)
+[![Website](https://img.shields.io/badge/-nihildigit.dev-111?style=flat-square&logo=googlechrome&logoColor=white)](https://nihildigit.dev)
+[![X](https://img.shields.io/badge/-@NihilDigit-111?style=flat-square&logo=x&logoColor=white)](https://x.com/NihilDigit)
+[![Telegram](https://img.shields.io/badge/-@NihilDigit-111?style=flat-square&logo=telegram&logoColor=white)](https://t.me/NihilDigit)
+[![Codewars](https://www.codewars.com/users/NihilDigit/badges/micro)](https://www.codewars.com/users/NihilDigit)
 
 ## Projects
 
