@@ -18,7 +18,7 @@ I like systems that are practical, inspectable, and close to real hardware or re
 - [anvil](https://github.com/NihilDigit/anvil) — ANVIL: Accelerator-Native Video Interpolation
 - [RAFNet](https://github.com/NihilDigit/RAFNet) — Official RAFNet code — multimodal fusion for dense classroom student behavior recognition.
 - [renpak](https://github.com/NihilDigit/renpak) — AVIF compression toolchain for Ren'Py games with transparent runtime decoding
-- [tokmato](https://github.com/NihilDigit/tokmato) — Personal token-economy pomodoro app — earn focus / health tokens, spend them on a time pool that funds entertainment, food, and wishlist redemption.
+- [coding-agents-setup](https://github.com/NihilDigit/coding-agents-setup) — Modern local toolchain setup scripts for coding agents
 <!-- projects-end -->
 
 ## Publications
