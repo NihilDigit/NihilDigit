@@ -15,8 +15,8 @@ I like systems that are practical, inspectable, and close to real hardware or re
 <!-- projects-start -->
 - [waybar-ai-usage](https://github.com/NihilDigit/waybar-ai-usage) — Monitor Claude Code and OpenAI Codex CLI usage directly in your Waybar status bar.
 - [animeko](https://github.com/open-ani/animeko) — 集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform
+- [fresh](https://github.com/sinelaw/fresh) — Terminal based IDE & text editor: easy, powerful and fast
 - [anvil](https://github.com/NihilDigit/anvil) — ANVIL: Accelerator-Native Video Interpolation
-- [RAFNet](https://github.com/NihilDigit/RAFNet) — Official RAFNet code — multimodal fusion for dense classroom student behavior recognition.
 - [renpak](https://github.com/NihilDigit/renpak) — AVIF compression toolchain for Ren'Py games with transparent runtime decoding
 - [focuswell](https://github.com/NihilDigit/focuswell) — Android app for turning focused work into an auditable leisure-time reserve.
 <!-- projects-end -->
