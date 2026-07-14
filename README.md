@@ -15,6 +15,7 @@ I like systems that are practical, inspectable, and close to real hardware or re
 <!-- projects-start -->
 - [waybar-ai-usage](https://github.com/NihilDigit/waybar-ai-usage) — Monitor Claude Code and OpenAI Codex CLI usage directly in your Waybar status bar.
 - [animeko](https://github.com/open-ani/animeko) — 集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform
+- [mediamp](https://github.com/open-ani/mediamp) — Video / audio player for Compose Multiplatform.
 - [anvil](https://github.com/NihilDigit/anvil) — ANVIL: Accelerator-Native Video Interpolation
 - [renpak](https://github.com/NihilDigit/renpak) — AVIF compression toolchain for Ren'Py games with transparent runtime decoding
 <!-- projects-end -->
