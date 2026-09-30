@@ -14,7 +14,7 @@ I like systems that are practical, inspectable, and close to real hardware or re
 
 <!-- projects-start -->
 - [animeko](https://github.com/open-ani/animeko) — 集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform
-- [piko](https://github.com/NihilDigit/piko) — Lightweight, modern cross-platform client for PikPak powered by pikpak-kotlin. (Android & Windows Desktop)
+- [piko](https://github.com/NihilDigit/piko) — 高性能、多平台的 PikPak 客户端 | A fast, cross-platform PikPak client for Android, Windows and macOS
 - [bilby](https://github.com/NihilDigit/bilby) — bilibili 多平台客户端，提供无推荐流的订阅式设计、优化的听视频功能和 Agentic 搜索推荐能力。
 - [anvil](https://github.com/NihilDigit/anvil) — ANVIL: Accelerator-Native Video Interpolation
 - [openego-hub](https://github.com/NihilDigit/openego-hub) — Hardware control center for the HUAWEI MateBook E Go
