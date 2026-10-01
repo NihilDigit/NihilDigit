@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 env:
-  STATS_OPTIONS: username=NihilDigit&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&hide=contribs&show=prs_merged,all_time_contribs&disable_animations=true
+  STATS_OPTIONS: username=NihilDigit&show_icons=true&include_all_commits=true&hide_border=true&hide=contribs&show=prs_merged,all_time_contribs&disable_animations=true
   LANGS_OPTIONS: username=NihilDigit&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&hide_border=true&card_width=320&disable_animations=true
 
 jobs:
