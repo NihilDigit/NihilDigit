@@ -150,7 +150,7 @@ def main():
     pattern = re.compile(r"<!-- arxiv-start -->.*?<!-- arxiv-end -->", re.DOTALL)
 
     if not pattern.search(text):
-        print("ERROR: orcid markers not found in README.md", file=sys.stderr)
+        print("ERROR: arxiv markers not found in README.md", file=sys.stderr)
         sys.exit(1)
 
     new_text = pattern.sub(block, text)
