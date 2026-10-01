@@ -8,70 +8,67 @@ on:
 permissions:
   contents: write
 
+env:
+  STATS_OPTIONS: username=NihilDigit&show_icons=true&include_all_commits=true&hide_border=true&hide=contribs&show=prs_merged,all_time_contribs&disable_animations=true
+  LANGS_OPTIONS: username=NihilDigit&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&hide_border=true&card_width=320&disable_animations=true
+
 jobs:
-  plan:
+  readme:
     runs-on: ubuntu-latest
-    outputs:
-      repos: ${{ steps.plan.outputs.repos }}
-      cards: ${{ steps.plan.outputs.cards }}
     steps:
       - uses: actions/checkout@v7
 
-      - id: plan
-        run: python scripts/update-projects.py plan
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: python scripts/update-arxiv.py
 
-  # One job per card: the action is a composite that cannot loop over the
-  # pinned repos, whose count and names change with the profile
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "sync: update profile data"
+          file_pattern: README.md
+
   cards:
-    needs: plan
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        card: ${{ fromJSON(needs.plan.outputs.cards) }}
-    name: cards (${{ matrix.card.name }})
     steps:
+      - uses: actions/checkout@v7
+
       # fail_on_error keeps yesterday's cards on the output branch when the
       # API is rate limited, instead of publishing the error card
       - uses: stats-organization/github-readme-stats-action@v2
         with:
-          card: ${{ matrix.card.card }}
-          options: ${{ matrix.card.light }}
-          path: cards/${{ matrix.card.name }}-light.svg
+          card: stats
+          options: ${{ env.STATS_OPTIONS }}&theme=light_github
+          path: cards/stats-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
       - uses: stats-organization/github-readme-stats-action@v2
         with:
-          card: ${{ matrix.card.card }}
-          options: ${{ matrix.card.dark }}
-          path: cards/${{ matrix.card.name }}-dark.svg
+          card: stats
+          options: ${{ env.STATS_OPTIONS }}&theme=dark_github
+          path: cards/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
-      - uses: actions/upload-artifact@v7
+      - uses: stats-organization/github-readme-stats-action@v2
         with:
-          name: card-${{ matrix.card.name }}
-          path: cards/
+          card: top-langs
+          options: ${{ env.LANGS_OPTIONS }}&theme=light_github
+          path: cards/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
-  publish:
-    needs: cards
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v7
-
-      - uses: actions/download-artifact@v8
+      - uses: stats-organization/github-readme-stats-action@v2
         with:
-          pattern: card-*
-          merge-multiple: true
-          path: cards
+          card: top-langs
+          options: ${{ env.LANGS_OPTIONS }}&theme=dark_github
+          path: cards/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
-      # The runner image ships Chrome but neither Ubuntu, which the cards fall
-      # back to without Segoe UI, nor a CJK font for repo descriptions
+      # The cards fall back to Ubuntu when Segoe UI is missing; the runner
+      # image ships Chrome but not this font
       - run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends libavif-bin fonts-ubuntu fonts-noto-cjk
+          sudo apt-get install -y --no-install-recommends libavif-bin fonts-ubuntu
 
       - run: bash scripts/render-cards.sh cards
 
@@ -81,20 +78,3 @@ jobs:
           build_dir: cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  readme:
-    needs: [plan, publish]
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v7
-
-      - run: python scripts/update-projects.py readme
-        env:
-          PINNED_REPOS: ${{ needs.plan.outputs.repos }}
-
-      - run: python scripts/update-arxiv.py
-
-      - uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: "sync: update profile data"
-          file_pattern: README.md
