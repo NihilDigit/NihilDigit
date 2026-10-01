@@ -30,13 +30,14 @@ I like systems that are practical, inspectable, and close to real hardware or re
 
 ## Stats
 
+<!-- 由 sync-profile workflow 生成并发布到 output 分支，宽度取卡片的原始 CSS 尺寸，图片本身为 2 倍分辨率 -->
 <a href="https://github.com/stats-organization/github-stats-extended">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=NihilDigit&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&hide=contribs&show=prs_merged,all_time_contribs&theme=dark_github" />
-    <img height="180" align="top" alt="GitHub stats" src="https://github-stats-extended.vercel.app/api?username=NihilDigit&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&hide=contribs&show=prs_merged,all_time_contribs&theme=light_github" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/stats-dark.avif" />
+    <img width="467" align="top" alt="GitHub stats" src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/stats-light.avif" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=NihilDigit&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&hide_border=true&card_width=320&theme=dark_github" />
-    <img height="180" align="top" alt="Top languages" src="https://github-stats-extended.vercel.app/api/top-langs?username=NihilDigit&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&hide_border=true&card_width=320&theme=light_github" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/top-langs-dark.avif" />
+    <img width="320" align="top" alt="Top languages" src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/top-langs-light.avif" />
   </picture>
 </a>
