@@ -13,12 +13,12 @@ I like systems that are practical, inspectable, and close to real hardware or re
 ## Projects
 
 <!-- projects-start -->
-- [animeko](https://github.com/open-ani/animeko) — 集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform
-- [piko](https://github.com/NihilDigit/piko) — 高性能、多平台的 PikPak 客户端 | A fast, cross-platform PikPak client for Android, Windows and macOS
-- [bilby](https://github.com/NihilDigit/bilby) — bilibili 多平台客户端，提供无推荐流的订阅式设计、优化的听视频功能和 Agentic 搜索推荐能力。
-- [anvil](https://github.com/NihilDigit/anvil) — ANVIL: Accelerator-Native Video Interpolation
-- [openego-hub](https://github.com/NihilDigit/openego-hub) — Hardware control center for the HUAWEI MateBook E Go
-- [waybar-ai-usage](https://github.com/NihilDigit/waybar-ai-usage) — Monitor Claude Code and OpenAI Codex CLI usage directly in your Waybar status bar.
+<a href="https://github.com/open-ani/animeko"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/pin-open-ani-animeko-dark.avif" /><img width="390" alt="animeko" src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/pin-open-ani-animeko-light.avif" /></picture></a>
+<a href="https://github.com/NihilDigit/piko"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/pin-NihilDigit-piko-dark.avif" /><img width="390" alt="piko" src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/pin-NihilDigit-piko-light.avif" /></picture></a>
+<a href="https://github.com/NihilDigit/bilby"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/pin-NihilDigit-bilby-dark.avif" /><img width="390" alt="bilby" src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/pin-NihilDigit-bilby-light.avif" /></picture></a>
+<a href="https://github.com/NihilDigit/anvil"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/pin-NihilDigit-anvil-dark.avif" /><img width="390" alt="anvil" src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/pin-NihilDigit-anvil-light.avif" /></picture></a>
+<a href="https://github.com/NihilDigit/openego-hub"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/pin-NihilDigit-openego-hub-dark.avif" /><img width="390" alt="openego-hub" src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/pin-NihilDigit-openego-hub-light.avif" /></picture></a>
+<a href="https://github.com/NihilDigit/waybar-ai-usage"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/pin-NihilDigit-waybar-ai-usage-dark.avif" /><img width="390" alt="waybar-ai-usage" src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/pin-NihilDigit-waybar-ai-usage-light.avif" /></picture></a>
 <!-- projects-end -->
 
 ## Publications
