@@ -1,14 +1,13 @@
 # NihilDigit
 
-AI undergraduate working on edge AI, computer vision, multimedia systems, and small tools for everyday workflows.
+AI undergraduate working on edge AI, multimedia systems, Kotlin Multiplatform apps, and small tools for everyday workflows.
 
-I like systems that are practical, inspectable, and close to real hardware or real user routines. This profile is a compact index; more about my work is at [nihildigit.dev](https://nihildigit.dev).
+I like systems that are practical, inspectable, and close to real hardware or real user routines.
 
 ## Links
 
-[![X](https://img.shields.io/badge/NihilDigit-1F2937?style=for-the-badge&logo=x&logoColor=white)](https://x.com/NihilDigit)
+[![Website](https://img.shields.io/badge/nihildigit.dev-1F2937?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxwYXRoIGQ9Ik0yIDEyaDIwTTEyIDJhMTUgMTUgMCAwIDEgMCAyME0xMiAyYTE1IDE1IDAgMCAwIDAgMjAiLz48L3N2Zz4=)](https://nihildigit.dev)
 [![Telegram](https://img.shields.io/badge/NihilDigit-1F2937?style=for-the-badge&logo=telegram&logoColor=26A5E4)](https://t.me/NihilDigit)
-[![Codewars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.codewars.com%2Fapi%2Fv1%2Fusers%2FNihilDigit&query=%24.ranks.overall.name&label=&color=1F2937&style=for-the-badge&logo=codewars&logoColor=B1361E)](https://www.codewars.com/users/NihilDigit)
 
 ## Projects
 
@@ -29,10 +28,15 @@ I like systems that are practical, inspectable, and close to real hardware or re
 </pre>
 <!-- arxiv-end -->
 
-## GitHub
+## Stats
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/github-snake.svg" />
-  <img alt="GitHub contribution graph" src="https://raw.githubusercontent.com/NihilDigit/NihilDigit/output/github-snake-dark.svg" />
-</picture>
+<a href="https://github.com/stats-organization/github-stats-extended">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=NihilDigit&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&hide=contribs&show=prs_merged,all_time_contribs&theme=dark_github" />
+    <img height="180" align="top" alt="GitHub stats" src="https://github-stats-extended.vercel.app/api?username=NihilDigit&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&hide=contribs&show=prs_merged,all_time_contribs&theme=light_github" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=NihilDigit&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&hide_border=true&card_width=320&theme=dark_github" />
+    <img height="180" align="top" alt="Top languages" src="https://github-stats-extended.vercel.app/api/top-langs?username=NihilDigit&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&hide_border=true&card_width=320&theme=light_github" />
+  </picture>
+</a>
